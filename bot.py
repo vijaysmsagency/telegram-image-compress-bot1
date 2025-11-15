@@ -25,7 +25,7 @@ optimize_streams=True) pdf.close()
 
 Handle photos
 
-@dp.message_handler(content_types=[‘photo’]) async def
+@dp.message_handler(content_types=['photo']) async def
 handle_images(message: types.Message): user = str(message.from_user.id)
 folder = f”data/{user}” os.makedirs(folder, exist_ok=True)
 
