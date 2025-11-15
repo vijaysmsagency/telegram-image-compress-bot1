@@ -1,7 +1,7 @@
 import os from aiogram import Bot, Dispatcher, types from aiogram.utils
 import executor from PIL import Image import pikepdf
 
-TOKEN = os.getenv(“TOKEN”)
+TOKEN = os.getenv("TOKEN")
 
 bot = Bot(token=TOKEN) dp = Dispatcher(bot)
 
